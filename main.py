@@ -112,4 +112,8 @@ print(RomanowskaSara.schedule)
 print("!!! Iga !!!")
 print(RomanowskaIga.schedule)
 
+# Code is not ready.
+# Minor fixes required.
+# Missing GUI
+
 print("KONIEC")
