@@ -4,15 +4,15 @@ import random
 Romanowski = LifeGuard("Grzegorz", "Romanowski", 910615, 20)
 Romanowska = LifeGuard("Patrycja", "Romanowska", 910219, 20)
 
-Łapino = Pool("Łapino", 1)
+Lapino = Pool("Łapino", 1)
 Osowa = Pool("Osowa", 2)
-Łapino.timeShifts["start1"] = 9
+Lapino.timeShifts["start1"] = 9
 Osowa.timeShifts["start1"] = 6
 
 Romanowski.setAvailability()
 Romanowska.setAvailability()
 
-Romanowski.preferredPool = Łapino.name
+Romanowski.preferredPool = Lapino.name
 Romanowska.preferredPool = Osowa.name
 
 def willing(sp, x, y):
@@ -50,15 +50,13 @@ match()
 print("!!! OSOWA !!!")
 print(Osowa.schedule)
 print("!!! ŁAPINO !!!")
-print(Łapino.schedule)
+print(Lapino.schedule)
 print("!!! Romanowski !!!")
 print(Romanowski.schedule)
 print("!!! Romanowska !!!")
 print(Romanowska.schedule)
 
 
-# Code is not ready.
-# Minor fixes required.
+# Code is not finished.
+# Minor fixes and improvements required.
 # Missing GUI
-
-print("KONIEC")
