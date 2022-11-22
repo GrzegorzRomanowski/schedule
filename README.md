@@ -1,9 +1,11 @@
 # schedule
-App for creating employee's schedules based on their availability.
+This is an app for creating employee schedules based on their availability.
 
-Company has about 60 employees (mostly employed part-time), 4-6 workplaces each with 2 workshifts.
-Every employee gives availability and preferred workplace for each month.
-App makes ready schedule after recive all availabilities from workers by pressing 1 or 2 buttons. 
+The company employs around 60 people (mainly part-time) and has 4 to 6 workplaces with 2 work shifts each.
+Every employee lists availability and preferred workplace for each month.
+The app creates a ready schedule after receiving all availabilities from employees by pressing 1 or 2 buttons.
 
-This app is an attempt to copy an existing original.
-Name of classes and variables are based on original situation - water lifeguards assigned to their swimming pools.
+This app is an attempt to recreate the existing program used at Tri-City swimming pools.
+The names of classes and variables are based on the original demand - water lifeguards assigned to their swimming pools.
+
+The rest of the code will be provided after a request.
