@@ -57,6 +57,7 @@ print("!!! Romanowska !!!")
 print(Romanowska.schedule)
 
 
-# Code is not finished.
+# CODE IS NOT FINISHED!
 # Minor fixes and improvements required.
-# Missing GUI
+# Additional functionalities required.
+# Missing whole GUI.
