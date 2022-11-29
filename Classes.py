@@ -30,7 +30,7 @@ class LifeGuard:
 
     def setAvailability(self):
         v = 1
-        while v <= 31:
+        while v <= 7:      #31
             x = input(str(self.name) + "- Podaj dyspozycyjność w dniu " + str(v) + ". \n0-wolne, 1-pierwsza zmiana, 2-druga zmiana, 3-cały dzień:  ")
             try:
                 if int(x) in [0, 1, 2, 3]:
@@ -53,13 +53,13 @@ class Pool:
                         "end1" : 15,
                         "start2" : 15,
                         "end2" : 22}
-        self.shifts = (list(range(1001, 1032))) * 2
+        self.shifts = (list(range(1001, 1008))) * 2     #1032
         for c in self.shifts:
             i = self.shifts.index(c)
             if i < len(self.shifts) * 0.5:
-                self.shifts[i] = c + 100
+                self.shifts[i] = c + 100       #str(c) +  "M"
             else:
-                self.shifts[i] = c + 200     
+                self.shifts[i] = c + 200       #str(c) +  "E"        
         a = 1
         shiftsAdded = []
         while a < self.amountOfLifeGuards:            
@@ -85,4 +85,6 @@ class Pool:
         return {"Nazwa" : self.name,
                 "Pierwsza zmiana" : "od godz. " + str(self.timeShifts["start1"]) + " do godz. " + str(self.timeShifts["end1"]),
                 "Druga zmiana" : "od godz. " + str(self.timeShifts["start2"]) + " do godz. " + str(self.timeShifts["end2"])}
-    
+
+#Osowa = Pool("Osowa", 3)
+#print(Osowa.schifts)
