@@ -1,5 +1,5 @@
 # schedule
-CODE IS NOT FINISHED!  -  UNDER CONSTRACTION
+CODE IS NOT FINISHED!!!  -  UNDER CONSTRACTION
 
 This is an app for creating employee schedules based on their availability.
 
