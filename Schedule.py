@@ -1,5 +1,4 @@
 # This is an app for creating employee schedules based on their availability.
-# Enjoy my first app ever :)
 
 import os
 import pickle
