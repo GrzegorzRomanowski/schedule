@@ -21,4 +21,5 @@ In an excel-file named "LOGIN_data" are written all logins and passwords to full
 In the case of creating a new employee's account default password is the employee's PESEL (PESEL needs to be unique).
 
 Best Regards
+
 Grzegorz Romanowski
