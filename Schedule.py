@@ -462,7 +462,9 @@ adminPassword = "WOPR"
 
 mainWindow = tk.Tk()
 mainWindow.title("SCHEDULE")
-mainWindow.iconbitmap('C:/Dane/Python/Wlasne/Grafik/fotox.ico')
+logodir = script_dir + "/fotox.ico"
+mainWindow.iconbitmap(logodir)
+
 foto = tk.PhotoImage(file="foto3.png")
 
 def whoLogin(h):
